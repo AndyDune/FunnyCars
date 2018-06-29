@@ -1,0 +1,33 @@
+{
+    "name": "andydune/funny-cars",
+    "description": "",
+    "keywords": [
+        "php"
+    ],
+    "authors": [
+        {
+            "name": "Andrey Ryzhov",
+            "email": "info@rznw.ru"
+        }
+    ],
+    "homepage": "https://github.com/AndyDune/FunnyCars",
+    "autoload": {
+        "psr-4": {
+            "AndyDune\\FunnyCars\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7.15 || ^6.0.8"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload-dev": {
+        "psr-4": {
+            "AndyDuneTest\\FunnyCars\\": "test/"
+        }
+    }
+}
